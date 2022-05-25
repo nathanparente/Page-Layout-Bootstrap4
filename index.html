@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <title>One-Page Layout</title>
+</head>
+<body>
+    <header id="menu" class="bg-dark">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse justify-content-center" id="navbarMenu">
+                    <div class="navbar-nav">
+                        <button class="btn btn-outline-secondary"><a class="nav-item nav-link" href="#home">Homepage</a></button>
+                        <button class="btn btn-outline-secondary"><a class="nav-item nav-link" href="#about-us">About Us</a></button>
+                        <button class="btn btn-outline-secondary"><a class="nav-item nav-link" href="#services">Services</a></button>
+                        <button class="btn btn-outline-secondary"><a class="nav-item nav-link" href="#contact">Contact</a></button>
+                        <button class="btn btn-outline-secondary"><a class="nav-item nav-link" href="#external">External</a></button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="d-flex flex-column justify-content-center align-items-center mb-5">
+        <div class="position-absolute">
+            <div class="h1 text-uppercase font-weight-normal text-sm-center title-image">Conquer</div>
+            <div class="h6 text-sm-center font-weight-normal sub-title-image">Simple Bootstrap Template</div>
+        </div>
+        <img src="assets/images/background01.jpg" class="mw-100 img-fluid">
+    </section>
+    <section id="about-us" class="container mb-5">
+        <div class="row">
+            <div class="col-sm">
+                <div class="pb-3" style="background-color:var(--color-card);">
+                    <img src="assets/images/orange-forest.jpg" class="img-fluid"/>
+                    <h5 class="my-3 px-3" style="color:var(--success);">Bootstrap v4.0</h5>
+                    <p class="px-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Sed venenatis sed nisl a tristique. Sed pharetra ut dolor in fermentum. 
+                        Nullam elementum id dui eu varius. Donec eu aliquet mi. 
+                    </p>
+                    <div class="d-flex justify-content-sm-center">
+                        <button class="btn btn-success">Button Green</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="pb-3" style="background-color:var(--color-card);">
+                    <img src="assets/images/bridge.jpg" class="img-fluid"/>
+                    <h5 class="my-3 px-3" style="color:var(--primary);">Responsive Design</h5>
+                    <p class="px-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Sed venenatis sed nisl a tristique. Sed pharetra ut dolor in fermentum. 
+                        Nullam elementum id dui eu varius. Donec eu aliquet mi. 
+                    </p>
+                    <div class="d-flex justify-content-sm-center">
+                        <button class="btn btn-primary">See Details</button></div>
+                    </div>
+                </div>
+            <div class="col-sm">
+                <div class="pb-3" style="background-color:var(--color-card);">
+                    <img src="assets/images/trilho.jpg" class="img-fluid"/>
+                    <h5 class="my-3 px-3 text-left" style="color:var(--danger);">Parallax Layout</h5>
+                    <p class="px-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Sed venenatis sed nisl a tristique. Sed pharetra ut dolor in fermentum. 
+                        Nullam elementum id dui eu varius. Donec eu aliquet mi. 
+
+                    </p>
+                    <div class="d-flex justify-content-sm-center">
+                        <button class="btn btn-danger">Button Green</button></div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="container mb-5">
+        <div class="row">
+            <div class="col-sm">
+                <div class="pb-3 d-flex flex-column align-items-center" style="background-color:var(--color-card);">
+                    <img src="assets/images/coffe-shop.jpg" class="img-fluid"/>
+                    <h5 class="my-3 px-3" style="color: var(--dark);">Two Column Left Side</h5>
+                    <p class="px-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Sed venenatis sed nisl a tristique. Sed pharetra ut dolor in fermentum. 
+                        Nullam elementum id dui eu varius. Donec eu aliquet mi. 
+                        </br>
+                        </br>
+                        Phasellus id lacinia massa. Morbi velit ligula, bibendum eu ligula laoreet, 
+                        suscipit hendrerit tellus. Morbi luctus lorem risus, in interdum erat lobortis et. 
+                        Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="pb-3 d-flex flex-column align-items-center" style="background-color:var(--color-card);">
+                    <img src="assets/images/orange-sky.jpg" class="img-fluid"/>
+                    <h5 class="my-3 px-3" style="color: var(--dark);">Two Column Right Side</h5>
+                    <p class="px-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Sed venenatis sed nisl a tristique. Sed pharetra ut dolor in fermentum. 
+                        Nullam elementum id dui eu varius. Donec eu aliquet mi. 
+                        </br>
+                        </br>
+                        Phasellus id lacinia massa. Morbi velit ligula, bibendum eu ligula laoreet, 
+                        suscipit hendrerit tellus. Morbi luctus lorem risus, in interdum erat lobortis et. 
+                        Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="d-flex flex-column justify-content-center align-items-center mb-5">
+        <div class="position-absolute">
+            <div class="h1 text-uppercase font-weight-normal text-sm-center title-image">
+                Our Services
+            </div>
+        </div>
+        <img src="assets/images/our-services.jpg" class="mw-100 img-fluid">
+    </section>
+    <section class="container mb-5">
+        <div class="row">
+            <div class="col-sm">
+                <div class="pb-3" style="background-color:var(--color-card);">
+                    <img src="assets/images/nature.jpg" class="img-fluid"/>
+                    <h5 class="my-3 px-3" style="color: var(--dark);">Column One</h5>
+                    <p class="px-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Sed venenatis sed nisl a tristique. Sed pharetra ut dolor in fermentum. 
+                    </p>
+                    <div class="d-flex justify-content-sm-center">
+                        <button class="btn btn-outline-secondary">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="pb-3" style="background-color:var(--color-card);">
+                    <img src="assets/images/coffe.jpg" class="img-fluid"/>
+                    <h5 class="my-3 px-3" style="color: var(--dark);">Bootstrap v4.0</h5>
+                    <p class="px-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Sed venenatis sed nisl a tristique. Sed pharetra ut dolor in fermentum. 
+                    </p>
+                    <div class="d-flex justify-content-sm-center">
+                        <button class="btn btn-outline-secondary">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="pb-3" style="background-color:var(--color-card);">
+                    <img src="assets/images/nature-2.jpg" class="img-fluid"/>
+                    <h5 class="my-3 px-3" style="color: var(--dark);">Bootstrap v4.0</h5>
+                    <p class="px-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Sed venenatis sed nisl a tristique. Sed pharetra ut dolor in fermentum. 
+                    </p>
+                    <div class="d-flex justify-content-sm-center">
+                        <button class="btn btn-outline-secondary">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="pb-3" style="background-color:var(--color-card);">
+                    <img src="assets/images/coffe-2.jpg" class="img-fluid"/>
+                    <h5 class="my-3 px-3" style="color: var(--dark);">Bootstrap v4.0</h5>
+                    <p class="px-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Sed venenatis sed nisl a tristique. Sed pharetra ut dolor in fermentum. 
+                    </p>
+                    <div class="d-flex justify-content-sm-center">
+                        <button class="btn btn-outline-secondary">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section class="container mb-5">
+        <div class="row">
+            <div class="col-sm">
+                <div class="pb-3" style="background-color:var(--color-card);">
+                    <img src="assets/images/coffe-sunset.jpg" class="img-fluid"/>
+                    <h5 class="my-3 px-3" style="color: var(--dark);">One Big Column</h5>
+                    <p class="px-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec turpis ligula. 
+                        Etiam eu sem in lacus consectetur rhoncus. Suspendisse ipsum odio, dictum vitae urna et, 
+                        imperdiet sodales nunc. Cras cursus auctor elit, at imperdiet mi semper quis. 
+                        Vestibulum est turpis, congue ac dolor aliquet, semper gravida diam. In quis dolor 
+                        nec metus dignissim iaculis ut non neque. Fusce vestibulum ultrices velit sit amet eleifend. 
+                        Donec a mauris quis augue pulvinar lobortis. Vivamus porttitor lacinia ex, 
+                        vel rutrum metus molestie rhoncus. Cras in ultricies lacus, nec scelerisque lorem. 
+                        Aliquam a semper ipsum, a blandit mauris. Integer luctus dapibus odio. 
+                        Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                        </br>
+                        </br>
+                        Aliquam erat volutpat. In auctor, augue et commodo molestie, eros magna tempus massa, 
+                        in dignissim urna orci ut erat. Aliquam vitae faucibus lectus, sed commodo eros. 
+                        Morbi nec nibh metus. Ut dui sem, tincidunt faucibus metus at, mollis venenatis augue.
+                        Vestibulum faucibus rutrum risus pellentesque pharetra. 
+                        Integer mi velit, tempor eget accumsan sed, vestibulum sagittis ante. Aliquam erat volutpat.
+                    </p>
+                    <div class="d-flex justify-content-sm-start">
+                        <button class="btn btn-outline-secondary">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section id="contact" class="d-flex flex-column justify-content-center align-items-center mb-5">
+        <img src="assets/images/background02.jpg" class="mw-100 img-fluid mb-4">
+        <div id="contact-info" class="container  d-flex justify-content-center">
+            <div class="contact-area">
+                <div class="h1 text-uppercase font-weight-normal text-sm-center title-image">Contact Form</div>
+                <div class="h6 text-sm-center font-weight-normal sub-title-image mb-4">
+                    Sed sit amet efficitur lorem. Suspendisse laoreet nibh leo, quis mollis dui lobortis id.</br> 
+                    Mauris malesuada in orci eget interdum. Morbi dignissim arcu diam, </br>
+                    ut porta augue fermentum at. Orci varius natoque et magnis.
+                </div>
+                <form method="post">
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="form-group">
+                                <input type="text" name="usuario" placeholder="Name" class="form-control mb-2"/>
+                                <input type="email" name="email" placeholder="E-mail" class="form-control mb-2"/>
+                                <input type="text" name="subject" placeholder="Subject" class="form-control mb-2"/>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <textarea name="descricao" placeholder=" Your message here.."></textarea>
+                        </div>
+                        <input class="btn btn-primary" type="submit" value="Send"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer id="external" class="container d-flex flex-column justify-content-center align-items-center">
+            <h1 class="font-italic font-weight-light">Use it free</h1>
+            <p class="text-center">
+                Ut facilisis ipsum tortor, nec luctus sem consequat ut.</br>
+                Donec consectetur elit in est convallis facilisis. 
+            </p>
+            <hr/>
+            <p>Copyright github.com/nathanparente</p>
+    </footer>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
