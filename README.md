@@ -3,7 +3,7 @@
 # 📃 Description
   
   (Eng)</br>
-  This project was developed during the PARÇAS DEVELOPERS SCHOOL course and the main focus is on learning JavaScript to make the site work correctly.
+  This project was developed during the PARÇAS DEVELOPERS SCHOOL course and the main focus is on learning Bootstrap 4.0 to make the site work correctly.
   Also to enable the menu on desktop and mobile.
   
 (Pt-br)</br>
