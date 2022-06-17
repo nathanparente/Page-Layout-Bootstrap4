@@ -26,7 +26,7 @@
 
 
 ## 🖥 Link to access the site
-[https://nathanpizzasjs.netlify.app/](https://layoutbootstrap.netlify.app/)
+[https://layoutbootstrap.netlify.app/](https://layoutbootstrap.netlify.app/)
 
 
 <p align="center">Copyright © 2022 nathanparente</p>
